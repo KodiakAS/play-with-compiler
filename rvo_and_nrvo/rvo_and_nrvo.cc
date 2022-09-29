@@ -46,7 +46,7 @@ int main() {
 
 #ifdef DISABLE
         LOG("* 1. ctor (tmp)");
-        LOG("* 2. move ctor (tmp) to (tmp for return)");
+        LOG("* 2. move ctor (tmp for return) from (tmp)");
         LOG("* 3. dtor (tmp)");
         LOG("* 4. move ctor (t1) from (tmp for return)");
         LOG("* 5. dtor (tmp for return)");
